@@ -1,4 +1,4 @@
-# 🐍 Py IDS (Intrusion Detection System)
+# 🐍 What is Py IDS?
 
 This Python-based IDS (Intrusion Detection System) is designed to monitor network traffic and detect intrusions based on
 user-defined criteria. It provides the flexibility to specify filtering criteria such as target IP, target port, source 
