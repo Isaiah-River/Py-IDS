@@ -1,10 +1,10 @@
-# Py IDS (Intrusion Detection System)
+# 🐍 Py IDS (Intrusion Detection System)
 
 This Python-based IDS (Intrusion Detection System) is designed to monitor network traffic and detect intrusions based on
 user-defined criteria. It provides the flexibility to specify filtering criteria such as target IP, target port, source 
 IP, source port, and protocol to customize the detection process.
 
-## Features
+## 📦 Features
 
 - Sniffs network packets using Scapy library.
 - Allows users to set filtering criteria for intrusion detection.
@@ -12,9 +12,9 @@ IP, source port, and protocol to customize the detection process.
 - Supports saving detected packets to either CSV or JSON format.
 - Provides notifications for detected intrusions using Plyer library.
 
-## Installation
+## ⬇️ Installation
 
-### 1. Requirements
+### 1. 🔍 Requirements
 
 Before installing the Py IDS system, ensure you have the following components installed:
 
@@ -24,7 +24,7 @@ Before installing the Py IDS system, ensure you have the following components in
 
 You can install Python 3.x from the [official Python website](https://www.python.org/downloads/).
 
-### 2. Installing Dependencies
+### 2. 📥 Installing Dependencies
 
 You can install the required Python libraries using pip, the Python package manager. Open a terminal or command prompt 
 and run the following commands:
@@ -34,7 +34,7 @@ pip install scapy
 pip install plyer
 ```
 
-## Using Py IDS
+## 🖱️ Using Py IDS
 
 Py IDS is relatively simple to use. First select the output file you would like detected packets to be saved in (csv or 
 json). After this, select the filter you would like to scan packets for (options 1-5). After providing the filter, 
